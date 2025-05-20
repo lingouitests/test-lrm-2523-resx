@@ -1,0 +1,24 @@
+ # Explicitly typed ordered map (dictionary).
+ Bestiary: !!omap
+   - aardvark: African pig-like ant eater.
+   - anteater: South-American ant eater.
+   - anaconda: South-American constrictor snake. 
+ # Flow style
+ Numbers1: !!omap [ 1: one, 2: two, 
+        3: three ]
+ 
+ #Implicit ordered map
+ Numbers2:
+   - {1: one}
+   - {2: two}
+   - {3: three}
+ 
+ #Block style ordered map with duplicate keys
+ Block style tasks:
+   - meeting: Meeting with team.
+   - meeting: Meeting with boss.
+   - break: Lunch break.
+   - meeting: Meeting with client.
+ 
+ #Flow style ordered map with duplicate keys
+ Flow tasks: [ meeting: Meeting with team, meeting: Meeting with boss ]
