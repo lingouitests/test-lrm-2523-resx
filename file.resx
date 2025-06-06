@@ -24,11 +24,6 @@
         <comment>Greeting message with placeholders for name and date</comment>
     </data>
 
-    <!-- Resource with escaped characters -->
-    <data name="NavigationBack" xml:space="preserve">
-        <value>&lt; Back</value>
-    </data>
-
     <!-- Resource with multiline text -->
     <data name="TermsOfService" xml:space="preserve">
         <value>This is a multi-line
