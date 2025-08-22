@@ -1,33 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
-    <resheader name="resmimetype">
-        <value>text/microsoft-resx</value>
-    </resheader>
-    <resheader name="version">
-        <value>2.0</value>
-    </resheader>
-    
-    <!-- Simple string resource -->
-    <data name="WelcomeMessage" xml:space="preserve">
-        <value>resx Welcome to our application!</value>
+    <data name="reset_password_ok"><value>OK</value></data> <data name="reset_password_confirmation_header_title"><value>reset</value></data>
+    <data name="reset_password_ok2"><value>OK</value></data> <data name="reset_password_confirmation_header_title2">
+        <value>reset</value>
     </data>
-
-    <!-- Resource with comment -->
-    <data name="UserNamePrompt" xml:space="preserve">
-        <value>resx Please enter  &apos;your &quot; username</value>
-        <comment>Username prompt shown during login</comment>
-    </data>
-
-    <!-- Resource with placeholders -->
-    <data name="GreetingMessage" xml:space="preserve">
-        <value>resx Hello, {0}! Your account was created on {1}</value>
-        <comment>Greeting message with placeholders for name and date</comment>
-    </data>
-
-    <!-- Resource with multiline text -->
-    <data name="TermsOfService" xml:space="preserve">
-        <value>resx This is a multi-line
-        resource spanning&nbsp;
-        multiple lines.</value>
-    </data>
+        <data name="reset_password_ok3"><value>OK</value></data> <data name="reset_password_confirmation_header_title3">
+        <value>reset</value></data>
 </root>
